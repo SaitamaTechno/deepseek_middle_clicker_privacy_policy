@@ -1,0 +1,2 @@
+# deepseek_middle_clicker_privacy_policy
+deepseek_middle_clicker_privacy_policy
