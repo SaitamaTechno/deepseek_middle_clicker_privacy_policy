@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - [Your Website/App Name]</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #3498db;
+            margin-top: 25px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #eee;
+        }
+        .last-updated {
+            font-style: italic;
+            color: #7f8c8d;
+        }
+        .contact {
+            background-color: #e8f4fc;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Privacy Policy</h1>
+        <p class="last-updated">Last Updated: <span id="current-date"></span></p>
+    </header>
+
+    <section>
+        <h2>1. Introduction</h2>
+        <p>Welcome to [Your Website/App Name] ("we," "us," or "our"). We respect your privacy and are committed to protecting your personal information. This Privacy Policy explains how we handle data when you use our services.</p>
+    </section>
+
+    <section>
+        <h2>2. Data Collection</h2>
+        <p>We do <strong>not</strong> collect, store, or process any personal data from our users. This includes, but is not limited to:</p>
+        <ul>
+            <li>Names</li>
+            <li>Email addresses</li>
+            <li>Phone numbers</li>
+            <li>IP addresses</li>
+            <li>Location data</li>
+            <li>Cookies or tracking identifiers</li>
+            <li>Payment or financial information</li>
+        </ul>
+        <p>Since we do not collect any user data, there is no need for data storage, sharing, or selling of information.</p>
+    </section>
+
+    <section>
+        <h2>3. Third-Party Services</h2>
+        <p>Our website/app may include links to third-party services (e.g., external websites, social media platforms). Please note that these services have their own privacy policies, and we are not responsible for their data practices.</p>
+    </section>
+
+    <section>
+        <h2>4. Changes to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy occasionally. Any changes will be posted on this page with an updated "Last Updated" date.</p>
+    </section>
+
+    <section class="contact">
+        <h2>5. Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy, please contact us at:</p>
+        <p><strong>[Your Contact Email]</strong></p>
+    </section>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> [Your Website/App Name]. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Automatically update the current date and year
+        document.getElementById('current-date').textContent = new Date().toLocaleDateString('en-US', { 
+            year: 'numeric', 
+            month: 'long', 
+            day: 'numeric' 
+        });
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
